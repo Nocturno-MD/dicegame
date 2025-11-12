@@ -65,9 +65,9 @@ while max(player_scores) < max_scores:
 
 max_score = max(player_scores)
 winning_index = player_scores.index(max_score)
-print("Player number", player_index,
-      "is the winner with a score of: ", max_score)
+print("Player number", player_index,"is the winner with a score of: ", max_score)
 
 
 # dice = roll()
 # print(dice)
+
