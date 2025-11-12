@@ -9,7 +9,7 @@ Please star and share our Project to show your support.
 ## 💖 Instructions 💖
 With VS code.
 > Download Python at https://www.python.org/downloads
-> Download Vs Code at TBA Later.
+> Download Vs Code at https://code.visualstudio.com/download.
 > Star and Fork the file.
 > Download/Copy the code in the "dicegame.py" file.
 > Open Vs Code.
