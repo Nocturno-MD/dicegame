@@ -60,8 +60,8 @@ while max(player_scores) < max_scores:
             print("Your current score is: ", current_score)
 
             # Calculating total scores
-    player_scores[player_index] += current_score
-    print("Your total score is: ", player_scores[player_index])
+        player_scores[player_index] += current_score
+        print("Your total score is: ", player_scores[player_index])
 
 max_score = max(player_scores)
 winning_index = player_scores.index(max_score)
@@ -70,4 +70,5 @@ print("Player number", player_index,"is the winner with a score of: ", max_score
 
 # dice = roll()
 # print(dice)
+
 
