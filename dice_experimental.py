@@ -1,19 +1,18 @@
+#THIS CODE WAS DONE IN PARTNERSHIP WITH ARTIFICIAL INTELLIGENCE
 import random
 import sys
 from colorama import init, Fore, Style
 
-# Initialize colorama (works on Windows too)
+
 init(autoreset=True)
 
-# Colors
+
 C_PLAYER1 = Fore.CYAN
 C_PLAYER2 = Fore.YELLOW
 C_ROLL = Fore.GREEN
 C_BUST = Fore.RED
 C_WIN = Fore.MAGENTA + Style.BRIGHT
 C_RESET = Style.RESET_ALL
-
-# --------------------------------------------------------------
 
 
 def roll_dice() -> int:
@@ -52,14 +51,13 @@ def get_choice(player_name) -> str:
         print(f"   {C_ROLL}Please type r, s, or q.{C_RESET}")
 
 
-# --------------------------------------------------------------
 def play_turn(player_name, current_score, opponent_name, target=50):
     """One full turn. Returns updated score or None if passed."""
     print(f"{Style.BRIGHT}➤ {player_name}'s turn (score: {current_score}){Style.RESET_ALL}")
     turn_total = 0
 
     while True:
-        # --- Roll ---
+        # Roll 
         roll = roll_dice()
         print(f"   Rolled: {C_ROLL}{roll}{C_RESET}", end="")
 
@@ -72,12 +70,12 @@ def play_turn(player_name, current_score, opponent_name, target=50):
         win_msg = f" → {C_WIN}WIN!{C_RESET}" if projected >= target else ""
         print(f" | Turn: {turn_total} → Total: {projected}{win_msg}")
 
-        # --- Win check ---
+        # Win check 
         if projected >= target:
             print(f"\n{C_WIN}🎉 {player_name} WINS THE GAME! 🎉{C_RESET}\n")
             return projected
 
-        # --- Player decision ---
+        #  Player decision 
         choice = get_choice(player_name)
 
         if choice == "q":
@@ -89,10 +87,7 @@ def play_turn(player_name, current_score, opponent_name, target=50):
             print(f"   {player_name} banks {turn_total} → {new_score}\n")
             return new_score
 
-        # else: 'r' → loop again
-
-
-# --------------------------------------------------------------
+        
 def main():
     print_header()
 
@@ -102,7 +97,7 @@ def main():
 
     score1 = score2 = 0
     target = 50
-    current = 1  # 1 = p1, 2 = p2
+    current = 1  
 
     while score1 < target and score2 < target:
         print_scores(p1, score1, p2, score2, target)
@@ -139,3 +134,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print(f"\n\n{C_ROLL}Game interrupted. Bye!{C_RESET}")
         sys.exit(0)
+
