@@ -2,7 +2,9 @@
 
 Please star and share our Project to show your support.
 
-<img src="https://i.ibb.co/Mfkw6xT/eternity-5.png" alt="Nocturno Let Loose" width="300">
+<a href="https://i.ibb.co/Mfkw6xT/eternity-5.png" target="_blank">
+  <img src="https://i.ibb.co/Mfkw6xT/eternity-5.png" alt="Nocturno Let Loose">
+</a>
 
 
 ## 📚 Information 📚
