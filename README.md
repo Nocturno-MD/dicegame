@@ -2,6 +2,9 @@
 
 Please star and share our Project to show your support.
 
+<img width="1044" height="207" alt="image" src="https://github.com/user-attachments/assets/b6d4234e-95e2-4a3a-94eb-91e69af5660a" />
+
+
 ## 📚 Information 📚
 
 > A simple and easy-to-use Python Dicegame project created by Nocturno.
