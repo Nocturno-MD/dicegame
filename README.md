@@ -5,7 +5,9 @@
 
 Please star and share our Project to show your support.
 
-<a href="https://ibb.co/Q3r4wHSJ"><img src="https://i.ibb.co/S4RzCmY6/N.png" alt="2258810" border="0"></a> 
+<a href="https://ibb.co/Q3r4wHSJ">
+  <img src="https://i.ibb.co/S4RzCmY6/N.png" alt="N Logo" width="150" style="border-radius: 10px;">
+</a>
 
 
 ## 📚 Information 📚
