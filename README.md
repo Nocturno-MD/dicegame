@@ -2,7 +2,7 @@
 
 Please star and share our Project to show your support.
 
-<img width="1044" height="207" alt="image" src="https://github.com/user-attachments/assets/b6d4234e-95e2-4a3a-94eb-91e69af5660a" />
+<img src="https://i.ibb.co/Mfkw6xT/eternity-5.png" alt="Nocturno Let Loose" width="300">
 
 
 ## 📚 Information 📚
